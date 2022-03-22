@@ -114,8 +114,8 @@ public class Main2 {
 // Użytkownik podaje informacje o tym czy jest zniżka na samochód i czy otrzymałeś podwyżkę.
 
      public static void warunkii(boolean znizka, boolean premia){
-        if(!znizka || premia) System.out.println("Możesz kupić samochód!"+ "Zniżki na samochód nie ma");
-        else if(!znizka || !premia) System.out.println("Zakup samochód trzeba odłożyć na później..."+ "Zniżki na samochód nie ma");
+        if(!znizka || premia) System.out.println("Możesz kupić samochód! Zniżki na samochód nie ma");
+        else if(!znizka || !premia) System.out.println("Zakup samochód trzeba odłożyć na później... Zniżki na samochód nie ma");
         else if (znizka || premia) System.out.println("Możesz kupić samochód!");
     }
 
